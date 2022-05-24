@@ -1,0 +1,10 @@
+00:17:35 **** Incremental Build of project design_2_wrapper ****
+buildplatform.bat 1329 design_2_wrapper no_domain_build 
+XSDB Server Channel: tcfchan#7
+00:17:39 **** Incremental Build of configuration Debug for project appARMcpu ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_18_10W4K2M" LaunchDir="C:/Users/EE_TUD/Desktop/PDP/fpga/zynq_fpga/zynq_fpga.runs/synth_18_10W4K2M" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_18_10W4K2M" LaunchDir="C:/Users/EE_TUD/Desktop/PDP/fpga/zynq_fpga/zynq_fpga.runs/impl_18_10W4K2M" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_18_10W4K2M"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
